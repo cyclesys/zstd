@@ -24,6 +24,7 @@ pub fn build(b: *std.Build) !void {
     });
     lib.installHeader(root_dir ++ "/lib/zstd.h", "zstd.h");
     lib.installHeader(root_dir ++ "/lib/zdict.h", "zdict.h");
+    lib.installHeader(root_dir ++ "/lib/zstd_errors.h", "zstd_errors.h");
 
     b.installArtifact(lib);
 }
