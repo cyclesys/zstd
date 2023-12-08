@@ -53,3 +53,7 @@ compile_commands.json
 .clangd
 perf.data
 perf.data.old
+
+# zig
+**/zig-cache/**
+**/zig-out/**
